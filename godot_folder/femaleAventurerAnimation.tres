@@ -1,0 +1,76 @@
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://dg74xdwmuh37c"]
+
+[ext_resource type="Texture2D" uid="uid://10vwg8see6j" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_attack0.png" id="1_hnbao"]
+[ext_resource type="Texture2D" uid="uid://cjdh84vp44sc5" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_attack1.png" id="2_v4pr8"]
+[ext_resource type="Texture2D" uid="uid://deymyq8onsvfo" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_attack2.png" id="3_px37b"]
+[ext_resource type="Texture2D" uid="uid://c231seohnsopf" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_run0.png" id="4_pc46q"]
+[ext_resource type="Texture2D" uid="uid://d2d80drp3exbm" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_run1.png" id="5_rxfnn"]
+[ext_resource type="Texture2D" uid="uid://cv3hm4svieuv" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_run2.png" id="6_pd8hs"]
+[ext_resource type="Texture2D" uid="uid://damf0d7hmhyqp" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk0.png" id="7_vqxvf"]
+[ext_resource type="Texture2D" uid="uid://j7o0pg2xs52g" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk1.png" id="8_tgvyj"]
+[ext_resource type="Texture2D" uid="uid://b5l7it46joruv" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk2.png" id="9_pq1mf"]
+[ext_resource type="Texture2D" uid="uid://bbl2t6j8feg0v" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk3.png" id="10_suthd"]
+[ext_resource type="Texture2D" uid="uid://ccd6owcinc1k4" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk4.png" id="11_e7hfx"]
+[ext_resource type="Texture2D" uid="uid://br0n5debmlyn0" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk5.png" id="12_yw7g4"]
+[ext_resource type="Texture2D" uid="uid://56oao3hmo3m8" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk6.png" id="13_4c7sl"]
+[ext_resource type="Texture2D" uid="uid://bmooblxdropvh" path="res://femaleAdventurerPosesHD/character_femaleAdventurer_walk7.png" id="14_j3dip"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hnbao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v4pr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_px37b")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_pc46q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rxfnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pd8hs")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_vqxvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tgvyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pq1mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_suthd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_e7hfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_yw7g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4c7sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j3dip")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
